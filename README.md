@@ -1,6 +1,6 @@
 # Turtlebot3-Path-Planning
 
-C++ implementation of Breath-First_Search (BFS) algorithm and PID Control to navigate a TurtleBot3 through a Maze in ROS.
+C++ implementation of Breath-First-Search (BFS) algorithm and PID Control to navigate a TurtleBot3 through a Maze in ROS.
 
 **Maze Objective (Goal highlighted in Green)**
 
