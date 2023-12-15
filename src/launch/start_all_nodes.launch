@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="student_pkg" value="src"/>
+
+    <!-- Launch the parameters. -->
+    <rosparam command="load" file="$(find src)/config/config.yaml"/>
+
+    <!-- Launch all nodes in the student's package. -->
+    <node pkg="$(arg student_pkg)" type="range_detect_node" name="range_detect_node"
+    output="screen"/>
+    <node pkg="$(arg student_pkg)" type="path_plan_node" name="path_plan_node"
+    output="screen"/>
+    <node pkg="$(arg student_pkg)" type="bot_control_node" name="bot_control_node"
+    output="screen"/>
+
+</launch>

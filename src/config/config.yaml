@@ -1,0 +1,14 @@
+# Name: NG ZHILI
+
+# enter the rest of the variables (9 variables total)
+Kp_x: 0.3
+Ki_x: 0
+Kd_x: 0.3
+
+Kp_a: 3
+Ki_a: 0
+Kd_a: 0.02 
+
+dt: 0.1
+goal_x: 6.5
+goal_y: 5.5
